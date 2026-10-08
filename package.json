@@ -1,0 +1,20 @@
+{
+  "name": "next-css-chunking-repro",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "start": "next start",
+    "check": "node scripts/check-entry-css.mjs"
+  },
+  "dependencies": {
+    "next": "16.5.0-canary.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.4",
+    "@types/react": "19.3.0",
+    "typescript": "7.0.2"
+  }
+}
